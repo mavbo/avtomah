@@ -12,12 +12,22 @@
 <body>
     <div class="container">
     
-    <!----header-->
-      <div class="top">
-          <img src="img/logo.png" alt="" srcset="">
-      <p>Добро пожаловать в нашу систему! Пробуйте - и Вам понравится</p>
-      </div>
+     <!----header-->
+     <div class="container">
+        <div class="header">
+            <div class="row">
+                <div class="col-md-1">
+                    <img src="img/logo.png" width="180" height="60">
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <h1>Добро пожаловать в нашу систему! Будем пробовать</h1>
+                </div>
+            </div>
+        </div>
       <!--main-->
+      <div class="row">
+                <div class="col-md-12">
       <div id="field_2">
         <div class="rectangle_2">
             <div class="top_rectangle_2" >Рассчитать<br>стоимость изделия</div>
@@ -47,7 +57,8 @@
           
             <a href=""><button type="submit">Перейти</button></a>
           
-          
+            </div>
+        </div>
         </div> 
     </div>
     </div>
