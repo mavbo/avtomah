@@ -23,6 +23,6 @@ $result = $connect -> query("INSERT INTO `client` (`date`, `name`, `address`, `p
 '$inn', '$kpp', '$ind_count', '$corr_count', '$bik_bankname')");
 
 $_SESSION['message'] = 'Успешно!';
-header('Location: ../contract-person.php');
+header('Location: ../client-card-create.php');
     
 ?>

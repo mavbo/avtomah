@@ -10,7 +10,7 @@ $checkuser = $connect -> query("SELECT * FROM `users` WHERE `login`='$login' AND
 $result =$checkuser->rowCount();
 if ($result>0) {
    
-    header('Location: ../menu.php');
+    header('Location: ../client-card-create.php');
 } else {
    
     header('Location: ../index.php');
